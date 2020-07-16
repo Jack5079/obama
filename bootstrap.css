@@ -9,6 +9,7 @@
 
 html {
   font-family: sans-serif;
+  text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
@@ -682,6 +683,10 @@ address {
 }
 
 @-ms-viewport {
+  width: device-width
+}
+
+@viewport {
   width: device-width
 }
 
